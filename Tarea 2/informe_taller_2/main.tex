@@ -1,0 +1,74 @@
+% Informe Tarea 2 - Cadenas de Markov y Aplicaciones
+
+\documentclass[
+	spanish,
+	letterpaper, oneside
+]{article}
+
+% INFORMACIÓN DEL DOCUMENTO
+\def\documenttitle {Conteo Aproximado con MCMC}
+\def\documentsubtitle {Tarea 2 - Modelos Hard-Core y q-Coloraciones}
+\def\documentsubject {Implementación de Algoritmos de Conteo Aproximado basados en Teorema 9.1}
+
+\def\documentauthor {Sergio Andrés Díaz Vera, Julián Mateo Espinosa Ospina}
+\def\coursename {Cadenas de Markov y Aplicaciones}
+\def\coursecode {2025-II}
+
+\def\universityname {Universidad Nacional de Colombia}
+\def\universityfaculty {Facultad de Ciencias}
+\def\universitydepartment {Departamento de Matemáticas}
+\def\universitydepartmentimage {departamentos/unal}
+\def\universitydepartmentimagecfg {height=1.57cm}
+\def\universitylocation {Bogotá D.C., Colombia}
+
+% INTEGRANTES, PROFESORES Y FECHAS
+\def\authortable {
+	\begin{tabular}{ll}
+		Estudiantes:
+		& \begin{tabular}[t]{l}
+			Sergio Andrés Díaz Vera \\
+			seadiazve@unal.edu.co \\
+			\\
+			Julián Mateo Espinosa Ospina \\
+			juespinosao@unal.edu.co
+		\end{tabular} \\
+		& \\
+		Profesor:
+		& \begin{tabular}[t]{l}
+			Freddy Hernández-Romero
+		\end{tabular} \\
+		& \\
+		\multicolumn{2}{l}{Fecha de entrega: 15 de noviembre de 2025} \\
+		\multicolumn{2}{l}{\universitylocation}
+	\end{tabular}
+}
+
+% IMPORTACIÓN DEL TEMPLATE
+\input{plantilla_src/template}
+
+% INICIO DE PÁGINAS
+\begin{document}
+
+% PORTADA
+\templatePortrait
+
+% CONFIGURACIÓN DE PÁGINA Y ENCABEZADOS
+\templatePagecfg
+
+% RESUMEN
+\begin{abstractd}
+Este informe presenta la implementación y análisis de algoritmos de conteo aproximado basados en Cadenas de Markov Monte Carlo (MCMC) para dos problemas clásicos en ciencias de la computación: q-coloraciones en grafos reticulares y el modelo Hard-Core de conjuntos independientes. Se desarrolló una implementación computacional eficiente basada en el Teorema 9.1, que garantiza un esquema de aproximación polinomial aleatorizado (FPRAS) para estos problemas en grafos con grado acotado. Los experimentos se realizaron para rejillas de tamaño $3 \leq K \leq 20$, con $2 \leq q \leq 15$ colores y precisiones $\varepsilon \in \{0.5, 0.2, 0.1\}$. Los resultados validan la correctitud del algoritmo mediante comparación con valores exactos en instancias pequeñas, y demuestran escalabilidad práctica para sistemas de hasta 400 vértices.
+\end{abstractd}
+
+% TABLA DE CONTENIDOS
+\templateIndex
+
+% CONFIGURACIONES FINALES
+\templateFinalcfg
+
+% ======================= INICIO DEL DOCUMENTO =======================
+
+\input{plantilla_src/etc/contenido_tarea2}
+
+% FIN DEL DOCUMENTO
+\end{document}

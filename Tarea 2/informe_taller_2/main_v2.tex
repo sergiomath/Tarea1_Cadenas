@@ -1,0 +1,79 @@
+% Informe Tarea 2 - Versión 2 (Más didáctica)
+% Cadenas de Markov y Aplicaciones
+
+\documentclass[
+	spanish,
+	letterpaper, oneside
+]{article}
+
+% INFORMACIÓN DEL DOCUMENTO
+\def\documenttitle {Conteo Aproximado con MCMC}
+\def\documentsubtitle {Tarea 2 - Modelos Hard-Core y q-Coloraciones}
+\def\documentsubject {Implementación de Algoritmos de Conteo Aproximado basados en Teorema 9.1}
+
+\def\documentauthor {Sergio Andrés Díaz Vera, Julián Mateo Espinosa Ospina}
+\def\coursename {Cadenas de Markov y Aplicaciones}
+\def\coursecode {2025-II}
+
+\def\universityname {Universidad Nacional de Colombia}
+\def\universityfaculty {Facultad de Ciencias}
+\def\universitydepartment {Departamento de Matemáticas}
+\def\universitydepartmentimage {departamentos/unal}
+\def\universitydepartmentimagecfg {height=1.57cm}
+\def\universitylocation {Bogotá D.C., Colombia}
+
+% INTEGRANTES, PROFESORES Y FECHAS
+\def\authortable {
+	\begin{tabular}{ll}
+		Estudiantes:
+		& \begin{tabular}[t]{l}
+			Sergio Andrés Díaz Vera \\
+			seadiazve@unal.edu.co \\
+			\\
+			Julián Mateo Espinosa Ospina \\
+			juespinosao@unal.edu.co
+		\end{tabular} \\
+		& \\
+		Profesor:
+		& \begin{tabular}[t]{l}
+			Freddy Hernández-Romero
+		\end{tabular} \\
+		& \\
+		\multicolumn{2}{l}{Fecha de entrega: 13 de noviembre de 2025} \\
+		\multicolumn{2}{l}{\universitylocation}
+	\end{tabular}
+}
+
+% IMPORTACIÓN DEL TEMPLATE
+\input{plantilla_src/template}
+
+% INICIO DE PÁGINAS
+\begin{document}
+
+% PORTADA
+\templatePortrait
+
+% CONFIGURACIÓN DE PÁGINA Y ENCABEZADOS
+\templatePagecfg
+
+% RESUMEN
+\begin{abstractd}
+Este informe presenta la implementación y análisis de algoritmos de conteo aproximado basados en Cadenas de Markov Monte Carlo (MCMC) para dos problemas computacionales clásicos: q-coloraciones en grafos reticulares y el modelo Hard-Core de conjuntos independientes. Se desarrolló una implementación computacional eficiente fundamentada en el Teorema 9.1, que establece un esquema de aproximación polinomial aleatorizado (FPRAS) para estos problemas en grafos con grado acotado.
+
+Los experimentos se realizaron sobre rejillas de tamaño $3 \leq K \leq 20$, con $2 \leq q \leq 15$ colores y tolerancias $\varepsilon \in \{0.5, 0.2, 0.1\}$. Los resultados validan la correctitud del algoritmo mediante comparación con valores exactos en instancias pequeñas, obteniendo errores relativos consistentemente menores al 4\%. El análisis empírico confirma el escalamiento teórico predicho para el número de simulaciones ($m \propto k^3/\varepsilon^2$) y el tiempo de mezcla ($\tau \propto k \log k$).
+
+En el modelo Hard-Core, se determinó que la densidad de ocupación converge a $\rho_\infty = 0.236 \pm 0.002$ en el límite termodinámico, caracterizando la fracción de sitios ocupados independientemente del tamaño del sistema. Este trabajo demuestra la viabilidad práctica de métodos MCMC para conteo aproximado en problemas \#P-completos, con aplicaciones en asignación de recursos y física estadística.
+\end{abstractd}
+
+% TABLA DE CONTENIDOS
+\templateIndex
+
+% CONFIGURACIONES FINALES
+\templateFinalcfg
+
+% ======================= INICIO DEL DOCUMENTO =======================
+
+\input{plantilla_src/etc/contenido_tarea2_v2}
+
+% FIN DEL DOCUMENTO
+\end{document}

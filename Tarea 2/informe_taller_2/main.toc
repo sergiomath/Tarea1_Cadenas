@@ -1,0 +1,32 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{1}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Contexto y Motivación}{1}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Objetivos y Alcance}{1}{subsection.1.2}%
+\contentsline {section}{\numberline {2}Marco Teórico}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Esquema de Aproximación Completamente Polinomial Aleatorizado}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Parámetros Algorítmicos}{2}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Número de Simulaciones Monte Carlo}{2}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Tiempo de Mezcla del Muestreador de Gibbs}{3}{subsubsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.3}Muestreador de Gibbs}{3}{subsection.2.3}%
+\contentsline {subsubsection}{\numberline {2.3.1}Dinámica para q-Coloraciones}{3}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.2}Dinámica para Modelo Hard-Core}{3}{subsubsection.2.3.2}%
+\contentsline {section}{\numberline {3}Ejercicio 1a: Aproximación de q-Coloraciones}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Configuración Experimental}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Análisis de Escalamiento con Precisión}{5}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Crecimiento Exponencial del Espacio de Configuraciones}{5}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Transición de Fase en Tiempo de Mezcla}{6}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Ejercicio 1b: Validación con Conteo Exacto}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Metodología de Validación}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Resultados de Validación}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Ejercicio 2: Modelo Hard-Core}{8}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Formulación del Problema}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Parámetros de Simulación}{8}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Resultados de Conteo Aproximado}{8}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Densidad Crítica y Límite Termodinámico}{8}{subsection.5.4}%
+\contentsline {section}{\numberline {6}Análisis de Resultados}{10}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Análisis Multivariado de q-Coloraciones}{10}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Análisis Multivariado del Modelo Hard-Core}{11}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Conclusiones}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Resultados Principales}{12}{subsection.7.1}%
+\contentsline {section}{\numberline {8}Referencias}{12}{section.8}%
+\contentsline {section}{Referencias}{12}{section.8}%
