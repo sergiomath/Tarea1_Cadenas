@@ -1,0 +1,4 @@
+Problema,Dimensiones,Átomos Ti,Configuraciones,Energía Final,Iteraciones,Tiempo (aprox)
+1 (4x4 2D),4×4×1,1,12,11098.4580,"1,000",<1s
+2 (10x10 2D),10×10×1,8,~1.5×10¹⁰,50563.9608,"5,000",~10s
+3 (NdFe12 3D),17×17×4.8 Å³,8,~1.5×10¹⁰,58676.1139,"3,000",~60s
